@@ -1,7 +1,7 @@
-# build stage
+## build stage
 FROM alpine:latest as build
 RUN apk update &&\
-    apk upgrade &&\ 
+    apk upgrade &&\
     apk add --no-cache linux-headers alpine-sdk cmake tcl openssl-dev zlib-dev
 WORKDIR /tmp
 RUN git clone https://github.com/Edward-Wu/srt-live-server.git

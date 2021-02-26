@@ -1,4 +1,4 @@
-# srt-live-server
+## srt-live-server
 Dockerized version of Edward Wu's SRT Live Server (SLS) and Haivision's SRT SDK
 All credit should go to the original tool author(s) - this is just a dockerization for convenience and portability.
 
@@ -43,5 +43,3 @@ https://github.com/Edward-Wu/srt-live-server
 https://blog.wmspanel.com/2019/06/srt-latency-maxbw-efficient-usage.html
 
 https://www.haivision.com/blog/all/how-to-configure-srt-settings-video-encoder-optimal-performance/
-
-
